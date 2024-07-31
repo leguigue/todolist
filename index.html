@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>To-Do-List</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-Do-List</h1>
+        <div class="switch-container">
+            <label class="switch">
+                <input id="toggle" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <div id="ToDoListCreator">
+                <label for="title" ></label>
+                <input type="text" placeholder="Enter title" class="chelou" id="title">
+            </div>
+            <div>
+                <label for="description"></label>
+                <input type="text" placeholder="Enter description"class="chelou" id="description">
+            </div>
+            <button type="button" id="button"class="chelou" onclick="createArticle()">Add To-Do</button>
+        </form>
+        </div>
+        <div id="ToDoListContainer" class="scroller">
+        </div>
+    </main>
+    <footer>
+        <p>Pied de la page</p>
+    </footer>
+</body>
+<script src="../assets/javascript/main.js"></script>
+<script src="../assets/javascript/darkmode.js"></script>
+
+</html>
